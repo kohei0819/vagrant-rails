@@ -14,7 +14,7 @@
 3.Edit your file  
 --
 rails_base/vagrantconfig.local.rb  
-(this file is overwrite on your enviroment file.)
+(this file is overwrite on your enviroment file.)  
 rails_base/provisioning/roles/deploy/main.yml  
 
 4.Input this command.  
