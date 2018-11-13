@@ -21,4 +21,3 @@ rails_base/provisioning/roles/deploy/main.yml
 --
 `$ vagrant up`  
 `$ vagrant ssh`
-# vagrant-rails
