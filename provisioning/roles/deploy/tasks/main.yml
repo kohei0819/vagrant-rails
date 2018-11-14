@@ -11,7 +11,7 @@
 
 - name: Install mysql2
   become: yes
-  become_user: ubuntu
+  become_user: "{{ rbenv_install_user }}"
   gem:
     name: mysql2
     executable: "{{ rbenv_install_dir }}/shims/gem"
@@ -23,7 +23,7 @@
 
 - name: bundle install
   become: yes
-  become_user: ubuntu
+  become_user: "{{ rbenv_install_user }}"
   shell: "{{ rbenv_install_dir}}/shims/bundle install"
   args:
     chdir: /vagrant/{{ project_name }}
