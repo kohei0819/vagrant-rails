@@ -1,4 +1,6 @@
 $private_network_ip = '192.168.33.10'
+$guest_port = 3000
+$host_port = 3000
 $public_network_enabled = false
 
 $synced_folder_guest_path = '/vagrant'
